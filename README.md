@@ -1,6 +1,10 @@
-### INSIGHT H1B STATISTICS CHALLENGE 
+# INSIGHT H1B STATISTICS CHALLENGE 
+### Problem
+A newspaper editor was researching immigration data trends on H1B(H-1B, H-1B1, E-3) visa application processing over the past years, trying to identify the occupations and states with the most number of approved H1B visas. She has found statistics available from the US Department of Labor and its [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis). But while there are ready-made reports for [2018](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2018/H-1B_Selected_Statistics_FY2018_Q4.pdf) and [2017](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2017/H-1B_Selected_Statistics_FY2017.pdf), the site doesn’t have them for past years. 
 
-# Procedure
+As a data engineer, I have created a mechanism to analyze past years data, specificially calculate two metrics: **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
+
+### Procedure
 Python language was used to solve the insight challenge. Following is the approach 
 I have used to solve the insight H1B statistics challenge:
 1. Read h1b_counting.csv file and store the necessary field data by getting their index values. 
@@ -32,7 +36,7 @@ occupation.
 3. __`PERCENTAGE`__: % of applications that have been certified for that occupation compared to 
 total number of certified applications regardless of occupation. 
 
-# How to run the program
+### How to run the program
 Use the following procedure to run the program
 1. Download the H1B_Counting Folder
 2. Open command terminal and check if python is installed. If not, install Python.
