@@ -41,14 +41,14 @@ Use the following procedure to run the program
 1. Download the H1B_Counting Folder
 2. Open command terminal and check if python is installed. If not, install Python.
 3. Change directory to where H1B_Counting folder is located
-3. Type *`chmod 777./run.sh `to give file permissions
-4. Type *`./run.sh` to execute the file
+3. Type `chmod 777./run.sh `to give file permissions
+4. Type `./run.sh` to execute the file
 5. Output files will be created and stored in output folder. 
 5. Go to output folder to view output files. Program will create 2 output files:
 * `top_10_occupations.txt`: Top 10 occupations for certified visa applications
 * `top_10_states.txt`: Top 10 states for certified visa applications
 6. Now, to run the tests, change directory to insight_testsuite
-7. Type *`chmod 777./run_tests.sh `to give file permissions
-8. Type *`./run_tests.sh` to execute the file. This will show how many of the 
+7. Type `chmod 777./run_tests.sh `to give file permissions
+8. Type `./run_tests.sh` to execute the file. This will show how many of the 
 given test cases passed by thr program
  
